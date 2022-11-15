@@ -95,6 +95,21 @@ ul {
     justify-content: space-around;
 }
 
+.display-images img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 50px;
+    border-width: 10px;
+
+}
+
+.display-images p {
+    text-align: center;
+}
+
 .fourth-box {
     border-radius: 25px;
     display: flex;
